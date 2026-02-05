@@ -1,0 +1,13 @@
+{
+  "orchestrator": {
+    "model": "google-gemini-cli:gemini-3-flash-preview"
+  },
+  "solvers": [
+    {
+      "model": "google-gemini-cli:gemini-3-pro-preview",
+      "count": 3,
+      "maxConcurrent": 2,
+      "retry": 0
+    }
+  ]
+}
